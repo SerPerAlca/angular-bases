@@ -3,9 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CounterModule } from './counter/counter.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroeComponent } from './heroes/heroe/heroe.component';
-import { ListComponent } from './heroes/lista/list/list.component';
 import { HeroesModule } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -16,7 +15,8 @@ import { HeroesModule } from './heroes/heroes.module';
     AppRoutingModule,
     BrowserModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
